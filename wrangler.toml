@@ -1,0 +1,11 @@
+name = "quickshare-24h"
+compatibility_date = "2026-04-07"
+pages_build_output_dir = "dist"
+
+[vars]
+R2_BUCKET_NAME = "quickshare-uploads"
+R2_ACCOUNT_ID = "YOUR_R2_ACCOUNT_ID"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "quickshare-uploads"

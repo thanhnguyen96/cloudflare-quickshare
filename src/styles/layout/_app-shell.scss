@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.app {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+
+  @include up($bp-md) {
+    padding: 1.5rem;
+  }
+}
